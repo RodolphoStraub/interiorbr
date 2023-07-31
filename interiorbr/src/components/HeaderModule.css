@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: rgb(71, 122, 111);
+  z-index: 1;
+}
+
+.bar {
+  width: 70%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+li {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(233, 238, 185);
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  left: 0;
+  bottom: -5px;
+  background: rgb(233, 238, 185);
+  transform: scale(0, 0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::after {
+  transform: scale(1, 1);
+  width: 100%;
+}
