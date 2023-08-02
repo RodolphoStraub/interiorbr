@@ -20,23 +20,23 @@ function Processo() {
         <div className="processobox">
           <div className="processoicon">
             <Icon
-              img="https://static.vecteezy.com/system/resources/previews/000/573/380/original/vector-sign-of-bulb-icon.jpg"
+              img="https://www.svgrepo.com/show/20845/bright-light-bulb.svg"
               name="Conceito"
             />
             <Icon
-              img="https://static.vecteezy.com/system/resources/previews/000/573/380/original/vector-sign-of-bulb-icon.jpg"
+              img="https://cdn-icons-png.flaticon.com/512/171/171096.png"
               name="Planejamento"
             />
             <Icon
-              img="https://static.vecteezy.com/system/resources/previews/000/573/380/original/vector-sign-of-bulb-icon.jpg"
+              img="https://static.thenounproject.com/png/1555241-200.png"
               name="Design"
             />
             <Icon
-              img="https://static.vecteezy.com/system/resources/previews/000/573/380/original/vector-sign-of-bulb-icon.jpg"
+              img="https://cdn-icons-png.flaticon.com/512/3700/3700776.png"
               name="Construção"
             />
             <Icon
-              img="https://static.vecteezy.com/system/resources/previews/000/573/380/original/vector-sign-of-bulb-icon.jpg"
+              img="https://cdn-icons-png.flaticon.com/512/45/45802.png"
               name="Entrega"
             />
           </div>

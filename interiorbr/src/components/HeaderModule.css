@@ -22,19 +22,19 @@ li {
   display: flex;
 }
 
-a {
+.interiorBr, .sobre, .trabalhos, .processo, .loja, .opinioes, .contato {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.interiorBr:hover, .sobre:hover, .trabalhos:hover, .processo:hover, .loja:hover, .opinioes:hover, .contato:hover {
   color: rgb(233, 238, 185);
   transition: 0.3s;
   cursor: pointer;
   transform: scale(1.1);
 }
 
-a::after {
+.interiorBr::after, .sobre::after, .trabalhos::after, .processo::after, .loja::after, .opinioes::after, .contato::after {
   content: '';
   position: absolute;
   height: 0.1rem;
@@ -45,7 +45,7 @@ a::after {
   transition: transform 0.3s ease;
 }
 
-a:hover::after {
+.interiorBr:hover::after, .sobre:hover::after, .trabalhos:hover::after, .processo:hover::after, .loja:hover::after, .opinioes:hover::after, .contato:hover::after {
   transform: scale(1, 1);
   width: 100%;
 }
