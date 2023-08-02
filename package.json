@@ -2,6 +2,7 @@
   "dependencies": {
     "infinite-react-carousel": "^1.2.11",
     "react-elastic-carousel": "^0.11.5",
+    "react-scroll": "^1.8.9",
     "react-touch-carousel": "^0.10.2"
   }
 }

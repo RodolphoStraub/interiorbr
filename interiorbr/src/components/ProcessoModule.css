@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-top: 100px;
+  scroll-margin-top: 100px;
 }
 
 .wrapperprocessoleft {
@@ -17,6 +18,7 @@
   width: 48px !important;
   height: 48px;
   margin-bottom: 6px;
+  margin-left: 18px;
 }
 
 .iconbox {

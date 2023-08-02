@@ -4,8 +4,9 @@ import Slider from "infinite-react-carousel";
 
 const SimpleSlider = () => (
   <Slider
+    arrows={null}
     slidesToShow={3}
-    autoplay="false"
+    autoplay
     autoplayScroll={1}
     autoplaySpeed={8000}
   >
