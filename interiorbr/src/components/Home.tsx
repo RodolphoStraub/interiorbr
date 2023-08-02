@@ -6,7 +6,7 @@ function Home() {
       <div className="texthome">
         <h1 className="name">InteriorBr </h1>
         <h1>
-          A moderna <br /> arte da simplicidade.
+          A moderna arte <br /> da simplicidade.
         </h1>
         <h2>
           Lorem ipsum dolor sit amet, consectetur adipiscing

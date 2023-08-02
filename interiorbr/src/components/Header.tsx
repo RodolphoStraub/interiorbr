@@ -20,6 +20,11 @@ function Header() {
           </a>
         </li>
         <li>
+          <a className="processo" href="#Processo">
+            Processo
+          </a>
+        </li>
+        <li>
           <a className="loja" href="#Loja">
             Loja
           </a>
