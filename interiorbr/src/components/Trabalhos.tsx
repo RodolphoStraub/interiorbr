@@ -4,58 +4,34 @@ import Slider from "infinite-react-carousel";
 const SimpleSlider = () => (
   <Slider
     arrows={null}
-    slidesToShow={3}
+    slidesToShow={2}
     autoplay
     autoplayScroll={1}
     autoplaySpeed={8000}
   >
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>{" "}
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>{" "}
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>{" "}
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>{" "}
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>{" "}
     <div>
-      <Trabalho
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-      />
+      <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
     </div>
   </Slider>
 );
@@ -70,7 +46,7 @@ function Trabalho(props) {
 
 function Trabalhos() {
   return (
-    <div className="wrappertrabalhosall">
+    <div id="Trabalhos" className="wrappertrabalhosall">
       <div className="wrappertrabalhosleft">
         <h1>
           <span className="name2">100+ projetos</span>

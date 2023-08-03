@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-top: 200px;
+  scroll-margin-top: 200px;
 }
 
 .wrappertrabalhosleft {
@@ -21,6 +22,19 @@
 }
 
 .wrappertrabalhosright {
-  width: 40%;
+  width: 850px;
+  height: 450px;
   margin-left: 150px;
+}
+
+.wrappertrabalhosright img {
+  margin-top: 100px;
+  width: 350px;
+  height: 450px;
+}
+
+.wrappertrabalhosright img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.3s;
 }
