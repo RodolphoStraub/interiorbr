@@ -1,4 +1,4 @@
-import "./OpinioesModule.css";
+import "./TrabalhosModule.css";
 import Slider from "infinite-react-carousel";
 
 const SimpleSlider = () => (
@@ -10,100 +10,84 @@ const SimpleSlider = () => (
     autoplaySpeed={8000}
   >
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>{" "}
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>{" "}
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>{" "}
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>{" "}
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>{" "}
     <div>
-      <Opinions
+      <Trabalho
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"
-        name="Amelia Kristian"
-        cargo="Designer de interiores"
       />
     </div>
   </Slider>
 );
 
-function Opinions(props) {
+function Trabalho(props) {
   return (
-    <div className="opinioncards">
-      <p>{props.text}</p>
-      <div className="cardpic">
-        <img src={props.img}></img>
-        <div className="cardtext">
-          <h2>{props.name}</h2>
-          <p>{props.cargo}</p>
-        </div>
-      </div>
+    <div className="trabalhopic">
+      <img src={props.img}></img>
     </div>
   );
 }
 
-function Opinioes() {
+function Trabalhos() {
   return (
-    <div id="Opinioes" className="wrapperopinioesall">
-      <div className="opinioestext">
-        <h1 className="back">"</h1>
-        <h1 className="opinion">
-          Veja o que <span className="name2">nossos clientes</span>
-          <br /> estão dizendo.
+    <div className="wrappertrabalhosall">
+      <div className="wrappertrabalhosleft">
+        <h1>
+          <span className="name2">100+ projetos</span>
+          <br /> por todo o mundo.
         </h1>
+        <p className="trabalhotext">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+        </p>
+        <button className="botao">Explorar</button>
       </div>
-      <SimpleSlider />
+      <div className="wrappertrabalhosright">
+        <SimpleSlider />
+      </div>
     </div>
   );
 }
 
-export default Opinioes;
+export default Trabalhos;

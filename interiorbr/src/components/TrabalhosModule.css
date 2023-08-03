@@ -1,0 +1,26 @@
+.wrappertrabalhosall {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.wrappertrabalhosleft {
+  width: 20%;
+  margin-left: 15%;
+}
+
+.wrappertrabalhosleft h1 {
+  line-height: 46px;
+  margin-top: 150px;
+  margin-bottom: 32px;
+}
+
+.trabalhotext {
+  margin-left: 0;
+  line-height: 36px;
+}
+
+.wrappertrabalhosright {
+  width: 40%;
+  margin-left: 150px;
+}
