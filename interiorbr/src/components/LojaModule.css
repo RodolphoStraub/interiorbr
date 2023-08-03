@@ -34,7 +34,7 @@
 
 .lojacards:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.08);
   transition: 0.3s;
 }
 
@@ -43,9 +43,12 @@
   height: auto;
 }
 
+.lojatext h2 {
+  line-height: 34px;
+}
+
 .lojatext h2, p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
